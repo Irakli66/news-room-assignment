@@ -44,7 +44,7 @@ getProducts();
                     store.addProductToCart(
                       data._id,
                       store.getProductAmount(data._id) - 1,
-                      data.price * (store.getProductAmount(data._id) - 1)
+                      data.price
                     );
                   } else
                     store.removeCartItemById(data._id),
@@ -68,7 +68,7 @@ getProducts();
                   store.addProductToCart(
                     data._id,
                     store.getProductAmount(data._id) + 1,
-                    data.price * (store.getProductAmount(data._id) + 1)
+                    data.price
                   )
               "
             >

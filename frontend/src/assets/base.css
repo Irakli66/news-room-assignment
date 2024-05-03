@@ -35,7 +35,29 @@
 
   --section-gap: 160px;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  /* border-radius: 50px; */
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+  /* border-radius: 50px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #657178;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9aa5ab;
+}
 /* @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);
